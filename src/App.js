@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Resultcard from "./components/Resultcard/Resultcard";
+import Countrypicker from "./components/Countrypicker/Countrypicker";
 import { fetchdata } from "./api";
+
 const App = () => {
   const [state, setState] = useState({
     data: {},
@@ -19,6 +21,7 @@ const App = () => {
     <div className="container">
       <Header />
       <Resultcard data={data}/>
+      <Countrypicker />
     </div>
   );
 };
