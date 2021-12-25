@@ -17,7 +17,16 @@
 .deaths {
     border-bottom: 10px solid #FF0000;
 }
-
+.resultcard .MuiPaper-root{
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+}
+.resultcard .MuiTypography-colorTextSecondary{
+    color: #fff;
+}
+.resultcard .MuiGrid-spacing-xs-1{
+    width: 100%;
+}
 @media(max-width:770px){
     .card{
         width: 2% 0 !important;
