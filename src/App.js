@@ -18,18 +18,18 @@ const App = () => {
     })();
   }, []);
 
-  const handlecountrypicker = async(country) =>{
-      const data = await fetchdata(country);
-      setState({ data, country:country});
-  }
+  const handlecountrypicker = async (country) => {
+    const data = await fetchdata(country);
+    setState({ data, country: country });
+  };
 
   const { data, country } = state;
   return (
     <div className="container">
       <Header />
-      <Resultcard data={data}/>
-      <Countrypicker handlecountrypicker={handlecountrypicker}/>
-      <Chart data={data} country={country}/>
+      <Resultcard data={data} />
+      <Countrypicker handlecountrypicker={handlecountrypicker} />
+      <Chart data={data} country={country} />
     </div>
   );
 };

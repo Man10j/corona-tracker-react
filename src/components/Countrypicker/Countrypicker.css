@@ -1,13 +1,14 @@
 .formControl {
-    margin-bottom: 30px !important;
+  margin-bottom: 30px !important;
 }
 
-.formControl .MuiNativeSelect-select.MuiNativeSelect-select{
-    color: #fff;
-    background-color: rgba(0,0,0,0.3);
-    padding: 10px;
-    font-size: 14px;
+.formControl .MuiNativeSelect-select.MuiNativeSelect-select {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  font-size: 14px;
 }
-.formControl .MuiNativeSelect-select:not([multiple]) option, .MuiNativeSelect-select:not([multiple]) optgroup{
-background-color: #141E30;
+.formControl .MuiNativeSelect-select:not([multiple]) option,
+.MuiNativeSelect-select:not([multiple]) optgroup {
+  background-color: #141e30;
 }
